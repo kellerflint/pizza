@@ -1,0 +1,36 @@
+/*Alphabetic regardless of class or id or whatever*/
+
+body {
+    background-color: red;
+}
+
+#main {
+    background-color: white;
+    margin: 0 7em;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 2px solid lightgrey;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+legend {
+    margin-left: 20px;
+    width: 165px;
+    padding: 15px;
+}
+
+img {
+}
+
+.jumbotron {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn {
+    margin-bottom: 1em;
+}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a819e80d-9795-4ff4-be75-f566ca427d0a" name="greenriverdev" url="http://kflint.greenriverdev.com">
+        <fileTransfer host="kflint.greenriverdev.com" port="18765" rootFolder="/home/kflintgr/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="18765" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>This Website</title>
+    <style>
+        body {
+            background-color: black;
+            animation: color 4s infinite alternate ease-in-out;
+        }
+
+        h1 {
+            color: white;
+            animation: slide 4s infinite alternate ease-in-out;
+        }
+
+        @keyframes slide {
+            from {
+                color: black;
+                transform: translateX(0%);
+            }
+
+            to {
+                color: white;
+                transform: translateX(85%);
+            }
+
+        }
+
+        @keyframes color {
+            from {
+                background-color: white;
+            }
+
+            to {
+                background-color: black;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="text">This is a site</h1>
+    <script>
+        /*
+        let h1 = document.getElementById("text");
+        console.log(h1.textContent);
+        for (let i = 0; i < 10; i++) {
+            console.log("1");
+        }
+        */
+    </script>
+</body>
+</html>
